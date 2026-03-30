@@ -1,0 +1,7 @@
+# Copy to key.properties and fill in after you create the keystore.
+# key.properties and *.jks are gitignored — back them up outside the repo.
+
+storePassword=your-store-password
+keyPassword=your-key-password
+keyAlias=faydaRelease
+storeFile=../upload-keystore.jks

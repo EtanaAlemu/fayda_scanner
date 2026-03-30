@@ -1,0 +1,65 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.hprof
+.DS_Store
+Thumbs.db
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IDEs & editors
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code: uncomment to ignore local launch/tasks; keep shared `.vscode/` if you use it.
+# .vscode/
+
+# Cursor / local AI (optional; remove if you commit shared rules)
+.cursor/
+
+# Flutter / Dart / Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Symbolication & obfuscation outputs
+app.*.symbols
+app.*.map.json
+symbols/
+
+# Tooling
+.fvm/
+
+# Environment & secrets (do not commit real values)
+.env
+.env.*
+!.env.example
+
+# Android signing & local SDK paths (see also `android/.gitignore`)
+**/key.properties
+**/*.jks
+**/*.keystore
+android/local.properties
+
+# iOS / CocoaPods (see also `ios/.gitignore`)
+
+# Android Studio per-app build outputs (Flutter also uses root `/build`)
+/android/app/debug/
+/android/app/profile/
+/android/app/release/

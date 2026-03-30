@@ -1,0 +1,27 @@
+name: fayda_scanner
+description: Fayda Scanner — QR scanner for Fayda-style DLT payloads (image + identity + signature).
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  mobile_scanner: ^7.0.0
+  path_provider: ^2.1.5
+  image_picker: ^1.1.2
+  image_cropper: ^12.0.0
+  pointycastle: ^4.0.0
+  basic_utils: ^5.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
