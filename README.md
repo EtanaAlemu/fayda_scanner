@@ -132,4 +132,4 @@ Issues and pull requests are welcome. Keep changes scoped and consistent with ex
 
 ## License
 
-Add a `LICENSE` file before you publish (for example MIT, Apache-2.0, or your own terms) so others know how they may use the code.
+[MIT](LICENSE) — see the `LICENSE` file.
